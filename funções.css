@@ -1,0 +1,20 @@
+# Funções
+
+/*São reconhecidas por causar reaproveitamento de código*/
+
+* rgb()  /*função faz todo o cálculo de cor*/
+* hsl() 
+* urk()
+* calc() /* Calcula altura com referência no body*/
+
+body {
+    height: 100vh; /*vh = viewport high*/
+    margin: 0;
+}
+
+.box {
+    height: calc(50% + 20px);
+    width: 400px;
+    background-image: url(http://source.unsplash.com/random);
+}
+
